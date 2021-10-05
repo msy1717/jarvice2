@@ -5,7 +5,7 @@ import telebot
 ##TOKEN DETAILS
 TOKEN = "Rs"
 
-BOT_TOKEN = "2044258662:AAFyMSCmiTGpQx7Jij4SGYwhg_UxiQfL-no"
+BOT_TOKEN = "1999198061:AAEOIwso2laMb-WQk4Rafi14DfmitmLlkkg"
 PAYMENT_CHANNEL = "@testing1717" #add payment channel here including the '@' sign
 OWNER_ID = 2043280413 #write owner's user id here.. get it from @MissRose_Bot by /id
 CHANNELS = ["@testing1717"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
@@ -24,7 +24,6 @@ def check(id):
         else:
             return False
     return True
-bonus = {}
 
 def menu(id):
     keyboard = telebot.types.ReplyKeyboardMarkup(True)
